@@ -1,0 +1,25 @@
+[
+  { "day": "01", "meeting": 3 },
+  { "day": "02", "meeting": 5 },
+  { "day": "03", "meeting": 4 },
+  { "day": "04", "meeting": 6 },
+  { "day": "05", "meeting": 7 },
+  { "day": "06", "meeting": 5 },
+  { "day": "07", "meeting": 6 },
+  { "day": "08", "meeting": 8 },
+  { "day": "09", "meeting": 4 },
+  { "day": "10", "meeting": 5 },
+  { "day": "11", "meeting": 7 },
+  { "day": "12", "meeting": 6 },
+  { "day": "13", "meeting": 3 },
+  { "day": "14", "meeting": 4 },
+  { "day": "15", "meeting": 5 },
+  { "day": "16", "meeting": 6 },
+  { "day": "17", "meeting": 1 },
+  { "day": "18", "meeting": 1 },
+  { "day": "19", "meeting": 3 },
+  { "day": "20", "meeting": 9 }
+]
+
+
+

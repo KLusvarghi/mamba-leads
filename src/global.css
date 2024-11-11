@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Valores padrão de tags e variáveis*/
+@layer base {
+  h1 {
+    @apply text-4xl font-semibold	text-white;
+  }
+
+  span {
+    @apply font-bold ;
+  }
+
+  path {
+    @apply stroke-2;
+  }
+
+
+  :root {
+    --violet-primary: 50 4 72;
+    --violet-secondary: 68 7 98;
+    --violet-tertiary: 90 11 129;
+    --violet-quaternary: 115 15 95;
+    --violet-quintenary: 44 4 63;
+    --violet-sextenary: 36 4 51;
+    
+    --yellow-primary: 255 204 0;
+    --yellow-secondary: 254 211 37;
+    --yellow-tertiary: 253 216 70;
+    --yellow-quaternary: 248 216 93;
+    --yellow-quintenary: 192 154 0;
+    --yellow-sextenary: 155 124 0;
+  }
+}
+
+/* Classes que tem estilização pré definida */
+@layer components {
+  .container {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 12px;
+    background-color: #582979;
+    padding: 22px 0;
+  }
+}
+
+/* Estilização padrão */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #3E0359;
+  /* background-image: url('/bg.svg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poopins', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
